@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PSX: OG Values — a Pet Simulator X value list, trade calculator and change log.">
+  <title>PSX: OG Values — Pet Simulator X Value List</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="PSX: OG Values home">
+        <span class="brand-mark">P</span>
+        <span>
+          <strong>PSX<span>: OG VALUES</span></strong>
+          <small>Pet Simulator X</small>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#home" data-route="home">Home</a>
+        <a href="#values" data-route="values">Values</a>
+        <a href="#calculator" data-route="calculator">Calculator</a>
+        <a href="#admin" data-route="admin">Admin</a>
+      </nav>
+
+      <button class="mobile-menu" id="mobileMenu" aria-label="Open menu">☰</button>
+    </header>
+
+    <main id="app"></main>
+
+    <footer class="footer">
+      <div>
+        <strong>PSX<span>: OG VALUES</span></strong>
+        <p>Fan-made value list for Pet Simulator X. Not affiliated with the game or its developers.</p>
+      </div>
+      <div class="footer-meta">
+        <span id="footerUpdated">Last updated —</span>
+      </div>
+    </footer>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
