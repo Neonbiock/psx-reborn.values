@@ -15,7 +15,7 @@
     {"id":13,"name":"Huge Bsdwdalloon Cat", "category":"Huges", "variant":"Dark Matter", "value":295000000, "demand":9, "release":"2024-01-19", "emoji":"🎈", "change":9},
     {"id":14,"name":"Huge Cupsdawcake", "category":"Huges", "variant":"Normal", "value":87000000, "demand":7, "release":"2024-02-16", "emoji":"🧁", "change":-5},
     {"id":15,"name":"Exclusiveasdw Kitsune", "category":"Exclusives", "variant":"Normal", "value":6300000, "demand":9, "release":"2024-03-15", "emoji":"🦊", "change":7},
-    {"id":16,"name":"Phantowdm Pet", "category":"Other", "variant":"Glitched", "value":9100000, "demand":6, "release":"2024-04-12", "emoji":"👻", "change":2}
+    {"id":16,"name":"Huge Cat", "category":"Other", "variant":"Glitched", "value":9100000, "demand":6, "release":"2024-04-12", "emoji":"👻", "change":2}
   ],
   "defaultChanges": [
     {"pet":"Huge Cat", "old":111000000, "current":125000000, "percent":12, "demand":9, "date":"2026-08-22"},
