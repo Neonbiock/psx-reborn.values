@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Community-maintained value list for Pet Simulator X — check prices, browse pets, and run trades through the calculator.">
+  <title>PSX Values — Pet Simulator X Trading Reference</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=JetBrains+Mono:wght@400;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="PSX Values home">
+        <span class="brand-mark">P</span>
+        <span>
+          <strong>PSX<span> VALUES</span></strong>
+          <small>PET SIM X TRADING REF</small>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#home" data-route="home">Home</a>
+        <a href="#values" data-route="values">Values</a>
+        <a href="#calculator" data-route="calculator">Calculator</a>
+      </nav>
+
+      <button class="mobile-menu" id="mobileMenu" aria-label="Open menu">☰</button>
+    </header>
+
+    <main id="app"></main>
+
+    <footer class="footer">
+      <div>
+        <strong>PSX<span> VALUES</span></strong>
+        <p>Player-run value list for Pet Simulator X. Not affiliated with the game or its developers.</p>
+      </div>
+      <div class="footer-meta">
+        <span class="sync-pill" id="footerUpdated">syncing —</span>
+      </div>
+    </footer>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
